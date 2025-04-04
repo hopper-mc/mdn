@@ -1,8 +1,10 @@
 package one.drix.mdn.text.format;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
+@Getter
 public class TextDecoration {
 
     private final String value;
